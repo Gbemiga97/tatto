@@ -1,5 +1,17 @@
 // fadeIn function
- const fadeIn = (direction) => {
+ 
+const container = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.1,
+      delayChildren: 0.6
+    }
+  }
+}
+
+
+const fadeIn = (direction) => {
   return {
     hidden: {
       y: direction === 'up' ? 80 : direction === 'down' ? -80 : 0,
@@ -20,6 +32,6 @@
 };
 
 
-const variants = {fadeIn}
+const variants = {container, fadeIn}
 
 export default variants
