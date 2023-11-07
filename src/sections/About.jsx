@@ -7,7 +7,7 @@ const About = () => {
   const {title, subtitle1, subtitle2, btnIcon, btnText} = data.aboutData
 
   return (
-    <section className="lg:py-16 xl:pb-[160px]">
+    <section id="about" className="lg:py-16 xl:pb-[160px]">
       <div className="container mx-auto">
         <motion.div 
         variants={variants.container}

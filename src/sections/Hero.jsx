@@ -8,7 +8,7 @@ const Hero = () => {
   const {title, subtitle, btnIcon, btnText} = data.heroData
 
   return (
-   <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[948px]
+   <section id="/" className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[948px]
    bg-no-repeat relative mt-[120px] lg:mt-[150px]">
     <motion.div 
     variants={variants.container}

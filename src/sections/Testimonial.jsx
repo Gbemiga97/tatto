@@ -7,7 +7,7 @@ import {Pagination} from 'swiper/modules'
 
 const Testimonial = () => {
   return (
-    <motion.section 
+    <motion.section id='testimonial'
     variants={variants.fadeIn('up')}
     initial='hidden'
     whileInView={'show'}

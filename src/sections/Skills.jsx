@@ -57,14 +57,14 @@ const Skills = () => {
     }
   }
   return (
-    <motion.section ref={ref} 
+    <motion.section id="services" ref={ref} 
     className='section font-primary'
     variants={variants.fadeIn('up')}
     initial='hidden'
     whileInView={'show'}
     viewport={{ once: true }}
     >
-      <div className="container mx-auto">
+      <div id="skills" className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-y-6">
           <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
             <CircularProgressbar

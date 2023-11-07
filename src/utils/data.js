@@ -23,11 +23,11 @@ import images from './images';
  const navData = {
   items: [
     { href: '/', name: 'Home' },
-    { href: '/', name: 'About' },
-    { href: '/', name: 'Gallery' },
-    { href: '/', name: 'Interview' },
-    { href: '/', name: 'Articles' },
-    { href: '/', name: 'Contact' },
+    { href: 'about', name: 'About' },
+    { href: 'gallery', name: 'Gallery' },
+    { href: 'interview', name: 'Interview' },
+    { href: 'testimonial', name: 'Articles' },
+    { href: 'contact', name: 'Contact' },
   ],
 };
 
@@ -206,10 +206,10 @@ import images from './images';
   links: {
     title: 'Useful links',
     items: [
-      { href: '/', name: 'About me' },
-      { href: '/', name: 'My gallery' },
-      { href: '/', name: 'My services' },
-      { href: '/', name: 'Contact me' },
+      { href: 'about', name: 'About me' },
+      { href: 'gallery', name: 'My gallery' },
+      { href: 'services', name: 'My services' },
+      { href: 'contact', name: 'Contact me' },
     ],
   },
   program: {

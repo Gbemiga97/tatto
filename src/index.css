@@ -40,7 +40,9 @@
   }
 }
 
-
+*{
+  scroll-behavior: smooth;
+}
 
 .testimonial .swiper-pagination-bullet {
   background: black;

@@ -20,7 +20,7 @@ const GallerySection = () => {
   const {title, btnText, btnIcon, images} = data.galleryData;
 
   return (
-    <section className="bg-[#f9f9f9] section relative mt-[40px] lg:mt-0">
+    <section id="gallery" className="bg-[#f9f9f9] section relative mt-[40px] lg:mt-0">
       <div className="container mx-auto">
         <motion.h2 
         variants={variants.fadeIn('up')}
